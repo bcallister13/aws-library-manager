@@ -1,7 +1,5 @@
 async function login() {
 
-alert("NEW VERSION OF LOGIN.JS");
-
 const username =
     document.getElementById("username").value;
 
@@ -23,14 +21,11 @@ const response = await fetch(
  );
 
 const result = await response.json();
-alert(JSON.stringify(result));
 
-alert("Message = [" + result.message + "]");
 document.getElementById("message").innerText =
 result.message;
 
 if (true) {
-    alert("Inside success block");
 
     localStorage.setItem(
         "loggedInUser",
