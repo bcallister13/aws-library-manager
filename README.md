@@ -1,23 +1,24 @@
-# AWS Static Portfolio Website
+# AWS Library Manager
 ## Overview
-This project is a responsive static portfolio website built using HTML and CSS in a Debian Linux environment.
+AWS Library Manager is a serverless web application that allows users to browse, check out, and return books through a simple web interface. The application uses AWS services for authentication, data storage, and backend processing while the frontend is built with HTML, CSS, and Javascript.
 
-The website was developed manually using Git, nano, and GitHub. Then deployed using AWS S3 static website hosting.
 ## Technologies Used
+-AWS Lambda
+-Amazon DynamoDB
+-Amazon API Gateway
 -HTML
 -CSS
 -Linux (Debian)
 -Git
 -GitHub
--AWS S3
-##Features
 
--A responsive portfolio layout
--Navigation bar with section linking
--Hover effects
--GitHub integration
--AWS cloud hosting
-## Live Website
-http://bryson-portfolio-site.s3-website.us-east-2.amazonaws.com
-## GitHub Repository
-https://github.com/bcallister13/aws-bryportfolio
+## Features
+User signup and login
+-Role-based access (Admin and User)
+-Browse library inventory
+-Check out books
+-Return books
+-Dynamic updates using Javascript
+-Data stored in Amazon DynamoDB
+-Backend powered by AWS Lambda
+-API communication through Amazon API Gateway
