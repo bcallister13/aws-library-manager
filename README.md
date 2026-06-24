@@ -44,6 +44,8 @@ library.css
 - API Development
 - Database Management
 - Authentication Logic
+- JavaScript Development
+- Git Version Control
 
 ## Future Improvements
 
