@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Library Manager</title>
+    <link rel="stylesheet" href="library.css">
+</head>
+<body>
+
+<script>
+if (!localStorage.getItem("loggedInUser")) {
+    window.location.href = "login.html";
+}
+</script>   
+
+<div class="header">
+<hl>Library Manager</hl>
+<p id="stats">Loading stats...</p>
+
+<input
+type="text"
+id="search"
+placeholder="Search books..."
+onkeyup="filterBooks()">
+</div>
+
+<button onclick="logout()">Logout</button>
+
+<div id="books"></div>
+
+<footer>
+<p>Bryson Callister | Library Manager | AWS Serverless Project</p>
+</footer>
+
+<script src="library.js"></script>
+
+</body>
+</html>
