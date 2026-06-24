@@ -24,3 +24,30 @@ AWS Library Manager is a serverless web application that allows users to browse,
 - Data stored in Amazon DynamoDB
 - Backend powered by AWS Lambda
 - API communication through Amazon API Gateway
+
+## Project Structure
+
+```text
+login.html
+login.js
+signup.html
+signup.js
+library.html
+library.js
+library.css
+```
+
+## Skills Demonstrated
+
+- Cloud Computing
+- Serverless Architecture
+- API Development
+- Database Management
+- Authentication Logic
+
+## Future Improvements
+
+- Password Hashing
+- Search Functionality
+- User Profile Page
+- Book Cover Images
